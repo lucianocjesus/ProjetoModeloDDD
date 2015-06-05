@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - Presentation", "0 - Presentation", "{3A0F5B8B-7152-49B3-821A-9F2EE29BF808}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Services", "1 - Services", "{12EE9887-20BA-4738-AFD9-881E9336D480}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Application", "2 - Application", "{16B93E22-A65D-49A3-9BAE-E480FAE73658}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Domain", "3 - Domain", "{1C18AD4C-BCFD-4ED1-B46E-3643FF58B637}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Infrastructure", "4 - Infrastructure", "{A1D7A502-1C31-45D5-8AAE-EB64CDD795B8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.1 - Data", "4.1 - Data", "{B231C800-CBED-41FA-95A6-D36811D4421B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.2 - CrossCutting", "4.2 - CrossCutting", "{6E97F7C8-926E-4EC4-9CCF-C6859E7CE8C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjetoModeloDDD.MVC", "ProjetoModeloDDD.MVC\ProjetoModeloDDD.MVC.csproj", "{8AC8D8C3-5A7E-44A4-91B8-3F5EB6FF26B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjetoModeloDDD.Domain", "ProjetoModeloDDD.Domain\ProjetoModeloDDD.Domain.csproj", "{58A1325B-F1A5-4BAC-A4D3-3D819BAF6AEC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjetoModeloDDD.Infrastructure.Data", "ProjetoModeloDDD.Infrastructure.Data\ProjetoModeloDDD.Infrastructure.Data.csproj", "{BABA5B05-DA67-4F0A-B698-C166F264BF27}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjetoModeloDDD.Application", "ProjetoModeloDDD.Application\ProjetoModeloDDD.Application.csproj", "{DE992C12-FB98-4202-B941-177424B6733E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8AC8D8C3-5A7E-44A4-91B8-3F5EB6FF26B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AC8D8C3-5A7E-44A4-91B8-3F5EB6FF26B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AC8D8C3-5A7E-44A4-91B8-3F5EB6FF26B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AC8D8C3-5A7E-44A4-91B8-3F5EB6FF26B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58A1325B-F1A5-4BAC-A4D3-3D819BAF6AEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58A1325B-F1A5-4BAC-A4D3-3D819BAF6AEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58A1325B-F1A5-4BAC-A4D3-3D819BAF6AEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58A1325B-F1A5-4BAC-A4D3-3D819BAF6AEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BABA5B05-DA67-4F0A-B698-C166F264BF27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BABA5B05-DA67-4F0A-B698-C166F264BF27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BABA5B05-DA67-4F0A-B698-C166F264BF27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BABA5B05-DA67-4F0A-B698-C166F264BF27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE992C12-FB98-4202-B941-177424B6733E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE992C12-FB98-4202-B941-177424B6733E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE992C12-FB98-4202-B941-177424B6733E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE992C12-FB98-4202-B941-177424B6733E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B231C800-CBED-41FA-95A6-D36811D4421B} = {A1D7A502-1C31-45D5-8AAE-EB64CDD795B8}
+		{6E97F7C8-926E-4EC4-9CCF-C6859E7CE8C2} = {A1D7A502-1C31-45D5-8AAE-EB64CDD795B8}
+		{8AC8D8C3-5A7E-44A4-91B8-3F5EB6FF26B4} = {3A0F5B8B-7152-49B3-821A-9F2EE29BF808}
+		{58A1325B-F1A5-4BAC-A4D3-3D819BAF6AEC} = {1C18AD4C-BCFD-4ED1-B46E-3643FF58B637}
+		{BABA5B05-DA67-4F0A-B698-C166F264BF27} = {B231C800-CBED-41FA-95A6-D36811D4421B}
+		{DE992C12-FB98-4202-B941-177424B6733E} = {16B93E22-A65D-49A3-9BAE-E480FAE73658}
+	EndGlobalSection
+EndGlobal

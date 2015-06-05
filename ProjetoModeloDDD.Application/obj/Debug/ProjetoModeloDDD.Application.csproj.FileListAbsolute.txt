@@ -1,0 +1,4 @@
+D:\Fontes\Projetos Particulares\Visual Studio 2013\ProjetoModeloDDD\ProjetoModeloDDD.Application\bin\Debug\ProjetoModeloDDD.Application.dll
+D:\Fontes\Projetos Particulares\Visual Studio 2013\ProjetoModeloDDD\ProjetoModeloDDD.Application\bin\Debug\ProjetoModeloDDD.Application.pdb
+D:\Fontes\Projetos Particulares\Visual Studio 2013\ProjetoModeloDDD\ProjetoModeloDDD.Application\obj\Debug\ProjetoModeloDDD.Application.dll
+D:\Fontes\Projetos Particulares\Visual Studio 2013\ProjetoModeloDDD\ProjetoModeloDDD.Application\obj\Debug\ProjetoModeloDDD.Application.pdb
